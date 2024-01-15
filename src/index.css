@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply bg-dark text-white overflow-x-hidden;
+  }
+  button {
+    @apply text-dark py-[14px] px-[20px] font-bold rounded-md leading-[150%] gap-[10px] flex flex-col items-center justify-center
+  }
+}
+
+@layer utilities {
+  .logo {
+    width: 178.906px;
+    height: 50px;
+  }
+}
